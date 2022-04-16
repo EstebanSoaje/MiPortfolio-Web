@@ -9,6 +9,9 @@ import { ExperienciaYEducacionComponent } from './componentes/experiencia-y-educ
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { LogrosComponent } from './componentes/logros/logros.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +20,16 @@ import { HttpClientModule } from '@angular/common/http';
     AcercaDeComponent,
     ExperienciaYEducacionComponent,
     AptitudesComponent,
-    LogrosComponent
+    LogrosComponent,
+    FooterComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

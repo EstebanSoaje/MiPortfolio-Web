@@ -1,0 +1,32 @@
+.negro{
+    height: 300px;
+    width: 300px;
+    padding-top: 50px;
+}
+.negro img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 300px;
+}
+
+.row div {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.btn {
+    box-shadow: 0px 0px 5px black;
+    transition: 1s;
+    margin-top: 5px;
+}
+.btn:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 10px black;
+    transform: scale(110%);
+}
+.completo{    
+    width: 100% !important;
+}

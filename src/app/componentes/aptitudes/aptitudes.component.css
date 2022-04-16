@@ -1,3 +1,8 @@
+
+.completo{
+    width: 100% !important;
+}
 .aptitudes {
-    background-color: rgb(215, 230, 255);
+    margin: auto;
+    text-align: center;
 }
