@@ -1,0 +1,65 @@
+.completo{
+    width: 100% !important;
+}
+
+.row div{
+    padding: 20px;
+    max-width: 100%;
+}
+div {
+    text-align: center;
+}
+.perfil img{
+    transition: 2s;
+    width: 80%;
+    margin-top: -20%;
+    border-radius: 800px;
+    box-shadow: 0px 0px 20px #000000;
+    backdrop-filter: blur(1px);
+    filter: blur(0.05px);
+}
+.perfil img:hover{
+    transition: 2s;
+    transform: scale(105%);
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 60px #000000;;
+}
+
+#nombre {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+@media (min-width: 576px){
+    .perfil img{
+        position: absolute;
+        width: 30%;
+        margin-top: -15%;
+        margin-left: -10%;
+    }
+}
+
+@media (min-width: 768px){
+    .perfil img{
+        width: 20%;
+        margin-top: -12%;
+        margin-left: -3%;
+    }
+    .nombre {
+        margin-top: 10%;
+        margin-left: -10%;
+        min-width: 50px;
+    }
+}
+@media (min-width: 992px){
+    .perfil img{
+        width: 20%;
+        margin-top: -12%;
+        margin-left: 2%;
+    }
+    .nombre {
+        margin-top: 10%;
+        margin-left: -10%;
+        min-width: 50px;
+    }
+}

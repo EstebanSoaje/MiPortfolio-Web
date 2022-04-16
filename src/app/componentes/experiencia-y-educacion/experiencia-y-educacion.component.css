@@ -1,0 +1,29 @@
+.completo{
+    width: 100% !important;
+}
+
+.bloque {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px grey;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+.descripcion {
+    margin: auto;
+    box-shadow: inset 0px 0px 10px grey;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+div {
+    text-align: center;
+}
+h2 {
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.centrar{
+margin: auto;
+}
