@@ -4,6 +4,12 @@
 
 .redes img{
     width: 80px;
+    transition: 2s;
+}
+
+.redes img:hover{
+    transition: 2s;
+    transform: scale(105%);
 }
 
 .banner{
