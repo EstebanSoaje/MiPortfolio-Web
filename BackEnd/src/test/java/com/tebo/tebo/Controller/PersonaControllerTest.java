@@ -100,18 +100,6 @@ public class PersonaControllerTest {
         fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of findPersona method, of class PersonaController.
-     */
-    @Test
-    public void testFindPersona() {
-        System.out.println("findPersona");
-        PersonaController instance = new PersonaController();
-        Persona expResult = null;
-        Persona result = instance.findPersona();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+    
     
 }

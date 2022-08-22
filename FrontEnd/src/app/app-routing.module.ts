@@ -4,7 +4,7 @@ import { IniciaSesionComponent } from './componentes/inicia-sesion/inicia-sesion
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
 
 const routes: Routes = [
-  {path:"", component: PortfolioComponent},
+  {path:"", component: PortfolioComponent}, //home
   {path:"inicia-sesion", component:IniciaSesionComponent}
   
 ];

@@ -1,0 +1,17 @@
+form{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn{
+    margin: 2px;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.form-text{
+    text-align: center;
+}
