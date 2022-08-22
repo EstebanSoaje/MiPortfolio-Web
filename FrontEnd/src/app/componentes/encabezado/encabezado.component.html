@@ -1,0 +1,23 @@
+
+  <nav class="navbar navbar-light bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand logos" href="#">
+        <img src="../../../assets/img/APLogo-20-20.png" alt="" width="150" class="d-inline-block align-text-top">
+      </a>
+      <div class="d-flex redes">
+        <a href="https://github.com/EstebanSoaje" target="_blank"><img src="../../../assets/img/github.svg" alt="github"></a>
+        <a href="https://www.linkedin.com/in/estebansf" target="_blank"><img src="../../../assets/img/linkedin.svg" alt="linkedin"></a>
+        <button type="button" class="btn btn-outline-primary m-3" (click)="iniciaSesion()" *ngIf="!isLogged">Ingresar</button>
+        <button type="button" class="btn btn-outline-primary m-3" (click)="cerrarSesion()" *ngIf="isLogged">Cerrar Sesion</button>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="navbar banner" href="#">
+        <img src="../../../assets/img/universo.jpg" alt="banner">
+      </div>
+    </div>
+  </div>
